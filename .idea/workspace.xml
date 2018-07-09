@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="834f5c15-7bf1-4799-a25e-33d51a02a132" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SER222-3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Maze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MazeSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MazeTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StackADT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testfile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testfile2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testfile3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SER222-3/LinkedStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SER222-3/LinkedStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SER222-3/MazeSolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SER222-3/MazeSolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SER222-3/MazeTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SER222-3/MazeTester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SER222-3/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SER222-3/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SER222-3/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SER222-3/Position.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MazeSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MazeSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MazeTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MazeTester.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.53194183">
+    <splitter split-orientation="horizontal" split-proportion="0.77292854">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="Maze.java" pinned="false" current-in-tab="false">
@@ -53,14 +48,33 @@
           <file leaf-file-name="MazeSolver.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/MazeSolver.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="88" column="37" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
+                <state relative-caret-position="335">
+                  <caret line="107" column="60" selection-start-line="107" selection-start-column="60" selection-end-line="107" selection-end-column="60" />
                   <folding>
                     <element signature="e#510#511#0" expanded="true" />
                     <element signature="e#542#543#0" expanded="true" />
                     <element signature="e#1081#1091#0" expanded="true" />
+                    <element signature="e#1982#1992#0" expanded="true" />
                     <element signature="e#2016#2026#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="testfile3.txt" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/testfile3.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="357">
+                  <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="testfile2.txt" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/testfile2.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
                 </state>
               </provider>
             </entry>
@@ -74,7 +88,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Position.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Position.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Position.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="246">
@@ -93,11 +107,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="MazeTester.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="MazeTester.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/MazeTester.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="161">
-                  <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+                <state relative-caret-position="239">
+                  <caret line="88" column="51" lean-forward="true" selection-start-line="88" selection-start-column="51" selection-end-line="88" selection-end-column="51" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -112,7 +126,7 @@
           <file leaf-file-name="LinkedStack.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/LinkedStack.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
+                <state relative-caret-position="167">
                   <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
                   <folding>
                     <element signature="e#1675#1676#0" expanded="true" />
@@ -148,9 +162,9 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>size</find>
       <find>tryPosition</find>
       <find>pop</find>
-      <find>size</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -163,13 +177,13 @@
         <option value="$PROJECT_DIR$/src/testfile3.txt" />
         <option value="$PROJECT_DIR$/src/LinearNode.java" />
         <option value="$PROJECT_DIR$/src/testfile.txt" />
-        <option value="$PROJECT_DIR$/src/MazeTester.java" />
-        <option value="$PROJECT_DIR$/src/MazeSolver.java" />
         <option value="$PROJECT_DIR$/src/Maze.java" />
         <option value="$PROJECT_DIR$/src/LinkedStack.java" />
         <option value="$PROJECT_DIR$/src/StackADT.java" />
         <option value="$PROJECT_DIR$/src/Node.java" />
         <option value="$PROJECT_DIR$/src/Position.java" />
+        <option value="$PROJECT_DIR$/src/MazeSolver.java" />
+        <option value="$PROJECT_DIR$/src/MazeTester.java" />
       </list>
     </option>
   </component>
@@ -267,7 +281,7 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info active="true" anchor="bottom" id="Run" visible="true" weight="0.3336842" />
+      <window_info active="true" anchor="bottom" id="Run" visible="true" weight="0.44526315" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
@@ -286,7 +300,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MazeSolver.java</url>
+          <line>124</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -309,20 +331,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/testfile3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testfile2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -334,56 +342,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MazeTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Maze.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="11" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1444#1445#0" expanded="true" />
-            <element signature="e#1482#1483#0" expanded="true" />
-            <element signature="e#1630#1631#0" expanded="true" />
-            <element signature="e#1664#1665#0" expanded="true" />
-            <element signature="e#1821#1822#0" expanded="true" />
-            <element signature="e#1858#1859#0" expanded="true" />
-            <element signature="e#2131#2132#0" expanded="true" />
-            <element signature="e#2168#2169#0" expanded="true" />
-            <element signature="e#2263#2264#0" expanded="true" />
-            <element signature="e#2304#2305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MazeSolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="88" column="37" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
-          <folding>
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#1081#1091#0" expanded="true" />
-            <element signature="e#2016#2026#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StackADT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -411,7 +369,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
+        <state relative-caret-position="167">
           <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
           <folding>
             <element signature="e#1675#1676#0" expanded="true" />
@@ -437,6 +395,71 @@
             <element signature="e#811#812#0" expanded="true" />
             <element signature="e#962#963#0" expanded="true" />
             <element signature="e#983#984#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StackADT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testfile2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testfile3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Maze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1444#1445#0" expanded="true" />
+            <element signature="e#1482#1483#0" expanded="true" />
+            <element signature="e#1630#1631#0" expanded="true" />
+            <element signature="e#1664#1665#0" expanded="true" />
+            <element signature="e#1821#1822#0" expanded="true" />
+            <element signature="e#1858#1859#0" expanded="true" />
+            <element signature="e#2131#2132#0" expanded="true" />
+            <element signature="e#2168#2169#0" expanded="true" />
+            <element signature="e#2263#2264#0" expanded="true" />
+            <element signature="e#2304#2305#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MazeSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="107" column="60" selection-start-line="107" selection-start-column="60" selection-end-line="107" selection-end-column="60" />
+          <folding>
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#1081#1091#0" expanded="true" />
+            <element signature="e#1982#1992#0" expanded="true" />
+            <element signature="e#2016#2026#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MazeTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="88" column="51" lean-forward="true" selection-start-line="88" selection-start-column="51" selection-end-line="88" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

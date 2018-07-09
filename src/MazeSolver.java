@@ -27,8 +27,6 @@ public class MazeSolver
      * characters indicating locations that have been TRIED and that
      * eventually become part of the solution PATH.
      *
-     * @param row row index of current location
-     * @param column column index of current location
      * @return true if the maze has been solved
      */
     public boolean traverse()
@@ -56,6 +54,40 @@ public class MazeSolver
         return done;
     }
     /**
+     * Attempts to recursively traverse the maze. Inserts special
+     * characters indicating locations that have been TRIED and that
+     * eventually become part of the solution PATH. Has a user defined start and end
+     *
+     * @param startx starting x coordinate
+     * @param starty starting y coordinate
+     * @param endy ending y coordinate
+     * @param endx ending x coordinate
+     * @return true if the maze has been solved
+     */
+    public boolean SmartTraverse(int startx, int starty, int endx, int endy){
+        boolean done = false;
+        int row, column;
+        Position pos = new Position(startx, starty);
+        Deque<Position> stack = new LinkedList<Position>();
+        stack.push(pos);
+        while (!(done) && !stack.isEmpty())
+        {
+            pos = stack.pop();
+            maze.tryPosition(pos.getx(),pos.gety());  // this cell has been tried
+            if (pos.getx() == endx && pos.gety() == endy )
+                done = true;  // the maze is solved
+            else
+            {
+                push_new_pos(pos.getx() - 1,pos.gety(), stack);
+                push_new_pos(pos.getx() + 1,pos.gety(), stack);
+                push_new_pos(pos.getx(),pos.gety() - 1, stack);
+                push_new_pos(pos.getx(),pos.gety() + 1, stack);
+            }
+        }
+
+        return done;
+    }
+    /**
      * Navigates the maze and determines a path from finish to start. Inserts a
      * 3 along the path when a solution has been determined.The maze MUST
      * have a solution otherwise this method will run forever.
@@ -63,17 +95,17 @@ public class MazeSolver
      * @return string that contains the solution by coordinates from start to
      * finish
      * */
-    public String Solution(){
+    public String Solution(int startx, int starty, int endx, int endy){
         String solution = "";
         boolean done = false;
         int row, column;
-        Position pos = new Position(maze.getRows() -1 , maze.getColumns() - 1);
+        Position pos = new Position(endx , endy);
         LinkedStack<Position> stack = new LinkedStack<Position>();
         stack.push(pos);
         while (!(done))
         {
             pos = stack.peek();
-            if (pos.getx() == 0 && pos.gety() == 0)
+            if (pos.getx() == startx && pos.gety() == starty)
                 done = true;  // the maze is solved
             else
             {
