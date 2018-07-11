@@ -30,15 +30,15 @@ public class LinkedStack<T> implements  StackADT<T> {
     public T popChild(){
         if(current.getPrev() != null){
 
-        Node<T> temp = current.getPrev();
-        temp.removeNextNode(current);
-        if(temp.size() > 0){
-            current = temp.getNext();
-        }else{
-            current = temp;
-            popChild();
-        }
-        return current.getElement();
+            Node<T> temp = current.getPrev();
+            temp.removeNextNode(current);
+            if(temp.childSize() > 0){
+                current = temp.getNext();
+            }else{
+                current = temp;
+                popChild();
+            }
+            return current.getElement();
         }else{
             return null;
         }
@@ -47,6 +47,7 @@ public class LinkedStack<T> implements  StackADT<T> {
 
     /**
      * Replaces the current node, with the previous node.
+     * Current node may be null.
      */
     public void moveParent(){
         current = current.getPrev();
@@ -54,7 +55,7 @@ public class LinkedStack<T> implements  StackADT<T> {
 
     /**
      * Replaces the current node with the first element from the current nodes
-     * next stack. getNext will throw an exception.
+     * next stack. getNext will throw an exception. 
      * @throws IllegalStateException if the current state is null.
      */
     public void nextChild(){

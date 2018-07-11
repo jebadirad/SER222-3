@@ -1,4 +1,3 @@
-import java.util.List;
 import java.util.Stack;
 /**
  * Node implementation to be used with LinkedStack when using mazesolver.
@@ -12,17 +11,8 @@ public class Node<T> {
     private Stack<Node<T>> next;
     private T element;
     private Node<T> prev;
-    private int size;
+    private int childSize;
 
-    /**
-     * basic constructor.
-     */
-    public Node(){
-        next = new Stack<Node<T>>();
-        element = null;
-        prev = null;
-        size = 0;
-    }
 
     /**
      *
@@ -32,25 +22,17 @@ public class Node<T> {
     public Node(T elem){
         next = new Stack<Node<T>>();
         element = elem;
-        size = 0;
+        childSize = 0;
     }
 
     /**
-     * size of the "child" elements, same as the size of the next stack.
-     * @return size of the "next" stack.
+     * childSize of the "child" elements, same as the childSize of the next stack.
+     * @return childSize of the "next" stack.
      */
-    public int size(){
-        return  size;
+    public int childSize(){
+        return childSize;
     }
 
-    /**
-     * get next in the stack using an index.
-     * @param i index of the element in the stack
-     * @return Node that is a child of this node.
-     */
-    public Node<T> getNext(int i){
-        return next.get(i);
-    }
 
     /**
      * gets the first Node in the next stack. Does not pop it out of the stack.
@@ -73,18 +55,10 @@ public class Node<T> {
     public void addNextNode(Node<T> node){
         if(null != node){
             next.push(node);
-            size++;
+            childSize++;
         }
     }
 
-    /**
-     * removes a node from the stack using Index.
-     * @param i index of node to remove from the stack.
-     */
-    public void removeNextNode(int i ){
-        next.remove(i);
-        size--;
-    }
 
     /**
      * remove a node from the stack by comparing it to another node.
@@ -92,16 +66,9 @@ public class Node<T> {
      */
     public void removeNextNode(Node<T> node){
         next.remove(node);
-        size --;
+        childSize--;
     }
 
-    /**
-     * pops the next stack.
-     */
-    public void removeNextNode(){
-        next.pop();
-        size --;
-    }
 
     /**
      * gets the value of the element for this node.
@@ -113,7 +80,6 @@ public class Node<T> {
 
     /**
      * gets the previous Node that is associated with this node.
-     * @return the node that is the parent of this node.
      */
     public Node<T> getPrev(){
         return prev;
@@ -127,11 +93,5 @@ public class Node<T> {
         prev = node;
     }
 
-    /**
-     * sets the value for the element of the current node.
-     * @param elem the value for the element of the current node. 
-     */
-    public void setElement(T elem){
-        element = elem;
-    }
+
 }

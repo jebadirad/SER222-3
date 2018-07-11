@@ -114,7 +114,7 @@ public class MazeSolver
                 push_solution_pos(pos.getx(),pos.gety() - 1, stack);
                 push_solution_pos(pos.getx(),pos.gety() + 1, stack);
 
-                if(stack.getCurrent().size() > 0){
+                if(stack.getCurrent().childSize() > 0){
 
                     stack.nextChild();
                 }else{
